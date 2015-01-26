@@ -1,8 +1,9 @@
+#Python Rest API
 
 A API está disponível on-line no endereço:
 http://191.180.144.139:5000/incube_api/
 
-Python Rest API challenge - Propõe-se uma aplicação que possa armazenar e disponibilizar a posição geográfica de uma frota de veículos.
+Propõe-se uma aplicação que possa armazenar e disponibilizar a posição geográfica de uma frota de veículos.
 A disponibilização dos dados é feita através do método GET.
 A inclusão de novos veículos na frota é feita através do método POST.
 O método PUT atualiza a posição de um veículo já existente.
