@@ -50,7 +50,7 @@ Instalação (através de 'ambiente virtual'):
 	. venv/bin/activate
 	pip install flask
 	pip install flask-sqlalchemy
-	pip install mysql-python
+	pip install flask-httpauth
 
 
 <b>Execução:
