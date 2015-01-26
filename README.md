@@ -75,6 +75,7 @@ A aplicação retorna uma uri que deverá ser usada para identificar aquele veí
 
 
 Método GET:
+
 É possível recuperar informações do servidor de duas formas: de todos os veículos através do endereço da API ou de um único através da uri gerada ao adicionar o veículo. 
 
 Endereço da API: http://191.180.144.139:5000/incube_api/	
@@ -88,6 +89,7 @@ Comando curl:
 	curl -i http://191.180.144.139:5000/incube_api/1 -u incube:incube
 
 Método PUT:
+
 Esse método atualiza a posição do veículo baseado na uri fornecida no método POST.
 Para atualizar o veículo é necessário fornecer latitude e longitude em formato json dessa forma:
 {"lat" : "-23.76589", "lng" : "-46.87650"}
@@ -96,6 +98,7 @@ Comando Curl que atualizaria o primeiro veículo adicionado:
 	curl -i -H "Content-Type: application/json" -X PUT -d '{"lat" : "-23.88756", "lng" : "-46.67483"}' http://191.180.144.139:5000/incube_api/1 -u incube:incube
 
 Método DELETE:
+
 Finalmente para remover um veículo da frota deverá ser usado o método DELETE na uri fornecida pelo método POST. Não é necessário nenhum parâmetro adicional.
 Comando Curl:
 
