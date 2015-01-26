@@ -32,18 +32,19 @@ Criação da base de dados:
 
 Criação da tabela:
 
-CREATE TABLE pos_carros(
-ID INTEGER PRIMARY KEY   AUTOINCREMENT,
-PLACA TEXT NOT NULL,
-LAT FLOAT(10,6),
-LNG FLOAT(10,6),
-HORA DATETIME NOT NULL);
+	CREATE TABLE pos_carros(
+	ID INTEGER PRIMARY KEY   AUTOINCREMENT,
+	PLACA TEXT NOT NULL,
+	LAT FLOAT(10,6),
+	LNG FLOAT(10,6),
+	HORA DATETIME NOT NULL);
 
 Obs.: O arquivo já está disponível (incube.db) com a tabela criada e alguns itens de exemplo.
 
 <b>Flask:
 
 Instalação (através de 'ambiente virtual'):
+
 	sudo apt-get install python-virtualenv
 	virtualenv venv
 	. venv/bin/activate
